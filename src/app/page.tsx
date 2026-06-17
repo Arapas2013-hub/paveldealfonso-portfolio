@@ -30,7 +30,8 @@ const EXPOSICIONES = [
 const VIDEOS = [
   { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/juan_avellaneda_presenta_su_nuevo_proyecto_en_colaboración_con_see_iou_v1_1080p_blqjyg', label: 'Juan Avellaneda × See Iou', type: 'land' },
   { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/levis_presentó_en_el_invernadero_su_nueva_colección_de_primavera_v1_1080p_jlkcsn', label: "Levi's Invernadero", type: 'land' },
-  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/el_arte_de_habitar__acto_ii_v1__2160p_', label: 'El arte de habitar II', type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/VENTA._MADRID._La_casa_perfecta_en_la_zona_más_efervescente_de_la_capital._Os_enseñamos_recomend_ylggas', label: 'Venta Madrid', type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/EVENTOS._Os_presentamos_105_un_olivar_secreto_en_el_corazón_de_la_capital.Este_espacio_es_una_d_wknz5l', label: 'Olivar secreto Madrid', type: 'land' },
   { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/evento_my_wish_en_tr31ntayuno_v1_2160p_pnjeuw', label: 'My Wish en TR31NTAYUNO', type: 'land' },
   { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/MAH01839_3_jxpkzr', label: 'Producción audiovisual', type: 'land' },
   { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/8f1923f5-fdcc-44ef-8573-37ebca6a2ff5_rvmc3l', label: 'Edición 06', type: 'land' },
