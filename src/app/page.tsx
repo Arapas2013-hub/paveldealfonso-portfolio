@@ -395,10 +395,11 @@ export default function Home() {
                 {VIDEOS.slice(0,4).map((v,i)=>(
                   <div key={i} onClick={()=>openCarousel('edicion')}
                     style={{width:'calc(25% - 6px)',aspectRatio:'16/9',overflow:'hidden',borderRadius:2,cursor:'pointer',background:'#e0dbd2'}}>
-                    <video src={v.src} muted playsInline preload="metadata"
+                    <video src={v.src+'#t=0.5'} muted playsInline preload="auto"
                       style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}}
+                      onLoadedMetadata={e=>{(e.currentTarget as HTMLVideoElement).currentTime=0.5}}
                       onMouseEnter={e=>(e.currentTarget as HTMLVideoElement).play()}
-                      onMouseLeave={e=>{const el=e.currentTarget as HTMLVideoElement;el.pause();el.currentTime=0}}/>
+                      onMouseLeave={e=>{const el=e.currentTarget as HTMLVideoElement;el.pause();el.currentTime=0.5}}/>
                   </div>
                 ))}
               </div>
