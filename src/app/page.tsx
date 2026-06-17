@@ -28,12 +28,13 @@ const EXPOSICIONES = [
   { src: '/imgs/exposiciones-04.png', label: 'Maniquíes Fera',   type: 'port' },
 ]
 const VIDEOS = [
-  { src: '/videos/edicion-01.mp4', label: 'Juan Avellaneda × See Iou', type: 'land' },
-  { src: '/videos/edicion-02.mp4', label: "Levi's Invernadero",         type: 'land' },
-  { src: '/videos/edicion-03.mp4', label: 'El arte de habitar II',      type: 'land' },
-  { src: '/videos/edicion-04.mp4', label: 'My Wish en TR31NTAYUNO',     type: 'land' },
-  { src: '/videos/edicion-05.mp4', label: 'Producción audiovisual',     type: 'land' },
-  { src: '/videos/edicion-06.mov', label: 'Edición 06',                 type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/juan_avellaneda_presenta_su_nuevo_proyecto_en_colaboración_con_see_iou_v1_1080p_blqjyg', label: 'Juan Avellaneda × See Iou', type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/levis_presentó_en_el_invernadero_su_nueva_colección_de_primavera_v1_1080p_jlkcsn', label: "Levi's Invernadero", type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/el_arte_de_habitar__acto_ii_v1__2160p_', label: 'El arte de habitar II', type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/evento_my_wish_en_tr31ntayuno_v1_2160p_pnjeuw', label: 'My Wish en TR31NTAYUNO', type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/MAH01839_3_jxpkzr', label: 'Producción audiovisual', type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/8f1923f5-fdcc-44ef-8573-37ebca6a2ff5_rvmc3l', label: 'Edición 06', type: 'land' },
+  { src: 'https://res.cloudinary.com/dmyodciqo/video/upload/copy_76C786EE-DE6A-43E4-8E10-7455A8591625_bf3bpn', label: 'Edición 07', type: 'land' },
 ]
 
 const EXPERIENCIA = [
