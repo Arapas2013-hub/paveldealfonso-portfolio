@@ -331,7 +331,7 @@ export default function Home() {
               <span style={{fontFamily:"'DM Mono',monospace",fontWeight:400,fontSize:'0.9rem',color:textColor,flexShrink:0,marginRight:'5%'}}>pavel de alfonso</span>
               <div style={{display:'flex',gap:'3rem'}}>
                 <button style={NAV} onClick={goWork} onMouseEnter={e=>hov(e,true)} onMouseLeave={e=>hov(e,false)}>Work</button>
-                <a href="https://my.readymag.com/edit/6395974/contents/" target="_blank" rel="noreferrer" style={NAV} onMouseEnter={e=>hov(e,true)} onMouseLeave={e=>hov(e,false)}>Portfolio</a>
+                <a href="https://readymag.website/u731161752/6395974/" target="_blank" rel="noreferrer" style={NAV} onMouseEnter={e=>hov(e,true)} onMouseLeave={e=>hov(e,false)}>Portfolio</a>
               </div>
               <div style={{flex:1}}/>
               <div style={{display:'flex',gap:'3rem',marginRight:'8%'}}>
